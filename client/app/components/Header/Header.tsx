@@ -1,6 +1,6 @@
 "use client";
 import { useUserContext } from "@/context/UserContext";
-import { github } from "@/utils/Icons";
+import { github, moon , profile } from "@/utils/Icons";
 import Link from "next/link";
 import React from "react";
 
@@ -42,8 +42,25 @@ const Header = () => {
             href={"https://github.com/RalfVictor/TaskManger"}
             target="blank"
             rel="noopener noreferer"
+            className="h-[40px] w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
           >
             {github}
+          </Link>
+          <Link
+            href={"https://github.com/RalfVictor/TaskManger"}
+            target="blank"
+            rel="noopener noreferer"
+            className="h-[40px] w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
+          >
+            {moon}
+          </Link>
+          <Link
+            href={"https://github.com/RalfVictor/TaskManger"}
+            target="blank"
+            rel="noopener noreferer"
+            className="h-[40px] w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
+          >
+            {profile}
           </Link>
         </div>
       </div>
